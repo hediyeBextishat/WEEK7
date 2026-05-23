@@ -1,0 +1,13 @@
+#Auckland Aquarium Management System
+
+Project Description
+A simple management system for the Auckland Aquarium to track the inventory of specific fish species (Goldfish, Shark, Angelfish, Tuna, Salmon).
+
+Design Patterns Used
+*   **Singleton Pattern**: Used for the `Aquarium` class to ensure that only one global aquarium instance manages the inventory throughout the application.
+*   **Factory Pattern**: Used for the `FishFactory` class to encapsulate the creation logic of different fish types, making the code easy to extend.
+ How to Run
+1. Ensure you have Python installed.
+2. Run the program using:
+```bash
+   python main.py
